@@ -1,0 +1,636 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+_debug_data/
+
+# C extensions
+*.so
+
+# Model files and directories
+llama2*/
+llama2/
+llama2_lora/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.pb
+*.tfl
+*.lite
+*.mlmodel
+*.mlpackage
+*.mar
+*.model
+*.weights
+*.weights.json
+*.index.json
+*.safetensors.index.json
+*.bin.index.json
+
+# Tokenizer files
+tokenizer.json
+tokenizer.model
+tokenizer_config.json
+special_tokens_map.json
+vocab.json
+vocab.txt
+merges.txt
+
+# Model configuration and metadata
+config.json
+generation_config.json
+*.yaml
+*.yml
+*.toml
+*.ini
+*.cfg
+
+# Model documentation and licenses
+README.md
+LICENSE.txt
+USE_POLICY.md
+*.md
+*.pdf
+*.txt
+
+# Hugging Face specific
+.huggingface/
+*.gitattributes
+
+# Training outputs and logs
+output/
+logs/
+*.log
+*.log.*
+log_*.txt
+checkpoint*/
+checkpoints/
+runs/
+wandb/
+tensorboard/
+*.events.*
+*.tfevents.*
+
+unsloth_*
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.arrow
+*.feather
+*.hdf
+*.h5
+*.npz
+*.npy
+*.mat
+*.pkl
+*.pickle
+
+# Large files and archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+*.bz2
+*.xz
+*.lzma
+
+# Temporary and cache files
+*.tmp
+*.temp
+*.cache
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+.brackets.json
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter notebook outputs
+.ipynb_checkpoints/
+*.ipynb
+
+# Environment and dependency files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+requirements.txt
+Pipfile
+Pipfile.lock
+poetry.lock
+pyproject.toml
+setup.py
+setup.cfg
+MANIFEST.in
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# Testing and coverage
+.coverage
+.coverage.*
+.pytest_cache/
+.tox/
+.nox/
+htmlcov/
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation
+docs/
+doc/
+*.rst
+*.md
+*.txt
+
+# Local configuration
+.last_run_name
+local_settings.py
+settings_local.py
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Additional non-code files
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.orig.*
+*.rej.*
+
+# Backup files
+*~
+*.swp
+*.swo
+*#
+
+# Lock files
+*.lock
+.lock
+
+# Node.js (if any frontend components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.yarn-integrity
+
+# Ruby (if any Ruby components)
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Go (if any Go components)
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+go.work
+
+# Rust (if any Rust components)
+target/
+Cargo.lock
+
+# Java (if any Java components)
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+hs_err_pid*
+
+# Scala (if any Scala components)
+*.class
+*.log
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# ENSIME specific
+.ensime_cache
+.ensime
+
+# MacOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+*.lnk
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+
+# Log files
+*.log
+*.log.*
+log_*.txt
+*.out
+*.err
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+.temp/
+
+# Cache directories
+.cache/
+cache/
+*.cache
+
+# Compiled documentation
+*.chm
+*.hlp
+
+# Font files (if any)
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.eot
+
+# Image files (if any)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+*.svg
+*.ico
+*.webp
+
+# Audio/Video files (if any)
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# Document files (if any)
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+*.pdf
+*.rtf
+*.odt
+*.ods
+*.odp
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+*.bz2
+*.xz
+*.lzma
+
+# Certificate files
+*.pem
+*.key
+*.crt
+*.cer
+*.der
+*.p12
+*.pfx
+
+# SSH keys
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ppk
+
+# GPG files
+*.gpg
+*.asc
+*.keyring
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+
+# Kubernetes
+*.yaml
+*.yml
+kubeconfig
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Ansible
+*.retry
+
+# Vagrant
+.vagrant/
+
+# Virtual machines
+*.vmdk
+*.vdi
+*.vbox
+*.ova
+*.ovf
+
+# Cloud credentials
+.aws/
+.azure/
+.gcp/
+credentials
+config
+
+# Local development
+.local/
+local/
+dev/
+development/
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+.brackets.json
+*.swp
+*.swo
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Backup and temporary
+*.bak
+*.backup
+*.old
+*.orig
+*.rej
+*.tmp
+*.temp
+*~
+
+# PyBuilder
+.pybuilder/
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+#   For a library or package, you might want to ignore these files since the code is
+#   intended to run in multiple environments; otherwise, check them in:
+# .python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# poetry
+#   Similar to Pipfile.lock, it is generally recommended to include poetry.lock in version control.
+#   This is especially recommended for binary packages to ensure reproducibility, and is more
+#   commonly ignored for libraries.
+#   https://python-poetry.org/docs/basic-usage/#commit-your-poetrylock-file-to-version-control
+#poetry.lock
+
+# pdm
+#   Similar to Pipfile.lock, it is generally recommended to include pdm.lock in version control.
+#pdm.lock
+#   pdm stores project-wide configurations in .pdm.toml, but it is recommended to not include it
+#   in version control.
+#   https://pdm.fming.dev/#use-with-ide
+.pdm.toml
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# PyCharm
+#  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
+#  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
+#  and can be added to the global gitignore or merged into this file.  For a more nuclear
+#  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+#.idea/
+
+
+# Local file written by the training script
+.last_run_name
