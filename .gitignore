@@ -44,22 +44,7 @@ vocab.json
 vocab.txt
 merges.txt
 
-# Model configuration and metadata
-config.json
-generation_config.json
-*.yaml
-*.yml
-*.toml
-*.ini
-*.cfg
 
-# Model documentation and licenses
-README.md
-LICENSE.txt
-USE_POLICY.md
-*.md
-*.pdf
-*.txt
 
 # Hugging Face specific
 .huggingface/
@@ -141,19 +126,6 @@ Thumbs.db
 # Environment and dependency files
 .env
 .venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-requirements.txt
-Pipfile
-Pipfile.lock
-poetry.lock
-pyproject.toml
-setup.py
-setup.cfg
-MANIFEST.in
 
 # Build and distribution
 build/
